@@ -64,7 +64,7 @@
     background-size: cover;
     height: 550px;
     min-height: 760px;
-    font-family : “Courier New”, Courier, monospace
+    font-family : “Courier New”, Courier, monospace;
 }
 
 #jumbomading p {
@@ -78,7 +78,7 @@
      background-repeat:no-repeat;
     background-position: bottom;
     min-height: 760px;
-    font-family : “Courier New”, Courier, monospace
+    font-family : “Courier New”, Courier, monospace;
     height: 550px;
 }
 
@@ -87,12 +87,12 @@
 
 
 .animate {
-    transition: 0.8s;
+    transition: 0.3s;
 }
 
 .animate:hover{
-    transform: rotate(360deg);
-    border-radius: 50%;
+    
+    border-radius: 30%;
 }
 
 .animate2{
