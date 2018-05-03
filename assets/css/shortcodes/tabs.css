@@ -249,12 +249,13 @@ Icon, Round And Square Tabs
 
 
 .icon-tab .nav>li>a {
+    font-size: 20px;
     display: block;
-    width: 85px;
-    height: 85px;
+    width: 50px;
+    height: 50px;
     border-radius: 6px;
     background: #F6F6F6;
-    color: #03a9f4;
+    color: black;
     border: 1px solid #eee;
 }
 .icon-tab .nav>li>a .material-icons {
@@ -283,7 +284,7 @@ Icon, Round And Square Tabs
 .icon-tab .nav-pills>li.active>a:hover {
     color: #fff;
     border:1px solid transparent;
-    background: #03a9f4;
+    background: black;
 }
 
 
