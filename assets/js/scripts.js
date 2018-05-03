@@ -496,6 +496,13 @@ Version: 1.5
 
 
         /* ======= shuffle js ======= */
+
+        // menclear data-item pada saat di reload
+
+        function cleardata(){
+            location.reload();
+        }
+
         $(window).on('load', function () {
 
             $('.portfolio-container').each(function(i, e){
@@ -503,21 +510,24 @@ Version: 1.5
                 var ttGrid = $(this).find('.portfolio');
                 var self = this;
                 ttGrid.shuffle({
-                    itemSelector: '.portfolio-item' // the selector for the items in the grid
+                    itemSelector: '.portfolio-item' //  pemilihan data-item untuk item di grid
                 });
 
-                /* reshuffle when user clicks button filter item */
+                /* perombakan data-item saat pengguna mengeklik tombol filter item */
+                
+               
+
                 $(this).find('.portfolio-filter li').on('click',function (e) {
                     e.preventDefault();
 
-                    // set active class
+                    // mengatur kelas aktif
                     $(self).find('.portfolio-filter li').removeClass('active');
                     $(this).addClass('active');
 
-                    // get group name from clicked item
+                    // mendapatkan nama grup dari item yang diklik
                     var ttGroupName = $(this).attr('data-group');
 
-                    // reshuffle grid
+                    // nametag masing2 reshuffle
                     ttGrid.shuffle('shuffle', ttGroupName);
                 });
 

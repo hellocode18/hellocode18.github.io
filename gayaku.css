@@ -2,16 +2,17 @@
     background-image:url(gambar/icon/hellocodeblur.png);
     background-size: cover;
     height: 550px;
-    min-height: 760px;
+    min-height: 562px;
     font-family : “Courier New”, Courier, monospace
 
 }
 
 #jumbohome h1 {
     color: white;
-    font-weight: 700;
+    font-size: 50px;
+    font-weight: 1000px;
     text-align: center;
-    padding-top: 300px;
+    padding-top: 200px;
 }
 
 #jumbohome p {
@@ -21,25 +22,8 @@
     font-size: 25px;
 }
 
-#jumbolearn {
-    background-image: url(gambar/learncode.png);
-    background-size: cover;
-    height: 550px;
-    min-height: 760px;
-    font-family : “Courier New”, Courier, monospace
-}
-#jumbolearn h1 {
-    color: white;
-    font-weight: 700px;
-    text-align: center;
-    padding-top: 200px;
-}
 
-#jumbolearn p {
-    color : white;
-    padding-top: 20px;
-    font-size: 25px;
-}
+
 
 #jumboboot {
     background-image: url(gambar/bootcamp.png);
@@ -120,10 +104,19 @@ h2 {
     font-size: 50px;
 }
 
+#navh2{
+    color: black;
+}
+
 
 
 #madding {
     background-color: lightgray;
+    color: black;
+}
+
+#pupolarcourse{
+    background-color: whitesmoke;
     color: black;
 }
 
@@ -156,18 +149,18 @@ body {
 }
 
 .bootcamp{
-    background-color: #FAFAFA;
+    background-color:whitesmoke;
     padding-top: 50px;
-    min-height: 500px;
+    min-height: 50px;
     padding-bottom: 50px;
 }
 
 .mading {
-    padding-top: 110px;
-    padding-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 10px;
     
-
-    background-image: url(gambar/papantulis.jpg);
+    
+    background-color: whitesmoke;
 
     background-size: cover;
     /* Create the parallax scrolling effect */
@@ -178,6 +171,11 @@ body {
     color: white;
 }
 
+
+.graduation {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 .ceo {
     padding-top: 50px;
     padding-bottom: 50px;
