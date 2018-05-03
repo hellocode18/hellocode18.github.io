@@ -88,12 +88,7 @@
     
 }
 
- h1 {
-    color: white;
-    font-weight: 700;
-    text-align: center;
-    padding-top: 300px;
-}
+
 
 #about {
     padding-top: 150px;
@@ -126,8 +121,8 @@ p {
 }
 
 .mulaibelajar {
-    padding-top: 100px;
-    min-height: 650px;
+
+
     background-image: url(gambar/bg1.png);
     background-size: cover;
     /* Create the parallax scrolling effect */
