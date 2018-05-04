@@ -110,6 +110,23 @@ Promo Box
     background-size: cover;
 }
 
+.promo-parallax2 {
+    background-image: url(../../img/banner/banner-2.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.promo-parallax3 {
+    background-image: url(../../img/banner/banner-6.jpg);
+    background-repeat: no-repeat;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 
 @media (min-width: 992px) {
     .content-promo-box.banner {
