@@ -22,7 +22,11 @@
     font-size: 25px;
 }
 
-
+#h1home{
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 400;
+    color: #202020;
+}
 
 
 #jumboboot {
