@@ -13,20 +13,33 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="gayaku.css" rel="stylesheet">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
-        <!-- FontAwesome CSS -->
-        <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,500,700,900' rel='stylesheet' type='text/css'>
         <!-- Material Icons CSS -->
         <link href="assets/fonts/iconfont/material-icons.css" rel="stylesheet">
-        <!-- animated-headline -->
-        <link href="assets/css/animated-headline.css" rel="stylesheet">
-        <!-- shortcodes -->
-        <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
+        <!-- FontAwesome CSS -->
+        <link href="assets/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- magnific-popup -->
+        <link href="assets/magnific-popup/magnific-popup.css" rel="stylesheet">
+        <!-- owl.carousel -->
+        <link href="assets/owl.carousel/assets/owl.carousel.css" rel="stylesheet">
+        <link href="assets/owl.carousel/assets/owl.theme.default.min.css" rel="stylesheet">
+        <!-- flexslider -->
+        <link href="assets/flexSlider/flexslider.css" rel="stylesheet">
         <!-- materialize -->
         <link href="assets/materialize/css/materialize.min.css" rel="stylesheet">
         <!-- Bootstrap -->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <!-- shortcodes -->
+        <link href="assets/css/shortcodes/shortcodes.css" rel="stylesheet">
         <!-- Style CSS -->
         <link href="style.css" rel="stylesheet">
+
+        <!-- RS5.0 Main Stylesheet -->
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/settings.css">
+        <!-- RS5.0 Layers and Navigation Styles -->
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/layers.css">
+        <link rel="stylesheet" type="text/css" href="assets/revolution/css/navigation.css">
+        
 
         
 
@@ -39,7 +52,7 @@
 <![endif]-->
     </head>
 
-    <body>
+    <body id="top">
 
         <header id="header" class="tt-nav">
             <div class="header-sticky light-header nav-boxed-color">
@@ -116,28 +129,20 @@
 
        
 
-        <section class="banner-wrapper parallax-bg banner-8 fullscreen-banner valign-wrapper overlay dark-5" data-stellar-background-ratio="0.5">
+        <!-- Hero Section -->
+        <section class="banner-wrapper parallax-bg banner-7 fullscreen-banner valign-wrapper" data-stellar-background-ratio="0.5">
                 <div class="valign-cell">
-                  <div class="container padding-top-70">
+                  <div class="container">
                     <div class="text-center">
-                        <h1 class="tt-headline clip is-full-width">
-                        <!-- you can use "rotate-1", "letters type", "letters rotate-2", "letters rotate-3", "letters scale", "loading-bar", "slide", "clip is-full-width", "push" --> 
-                            <span>Belajar Coding </span>
-                            <br>
-                            <span class="tt-words-wrapper">
-                                <b class="is-visible">1. Dengan harga murah</b>
-                                <b>2. Belajar Secara Intensif</b>
-                                <b>3. Ngoding jadi asik</b>
-                            </span>
-                        </h1>
-    
-                        <span class="tt-sub-intro">Hanya di hellocode</span>
-                        <a href="#" class="btn btn-lg  waves-effect waves-light">Daftar</a>
-                    </div> 
+                        <h1 class="intro-title text-capitalize white-text">Mulai duniamu dengan programming</h1>
+                        <br>
+                        <span class="sub-intro lead white-text">Belajar intensif di program bootcamp akan membantu proses belajar anda untuk menjadi sorang programmer bersama mentor terbaik kami.</span>
+                        <a href="bootcamp.html" class="btn btn-lg waves-effect waves-light mt-30">Daftar</a>
+                    </div><!-- hs-content-inner -->
                   </div><!-- /.container -->
-                </div><!-- /.valign-cell -->
-    
+                </div><!-- /.container -->
             </section>
+            <!-- Hero Section End -->
 
         <section class="sapa" style="margin-top: 50px; margin-bottom: 100px;">
             <div class="container">
@@ -164,12 +169,13 @@
             </div>
         </section>
 
-        <section class="content-promo-box banner padding-top-70 gray-bg" style="margin-bottom: 100px" >
+        <section class="content-promo-box banner padding-top-100 padding-bottom-120 gray-bg" style="margin-bottom: 100px;" >
                 <div class="container">
                     <div class="row">
                         <div class="col-md-7">
-                            <h2 class="font-30 text-extrabold mb-30 ">"Everybody in this country should learn to program a computer, because it teaches you how to think"</h2>
-                       <p>~Steve Jobs</p>
+                            <h2 class="font-30 text-extrabold mb-30 text-uppercase">"Everybody in this country should learn to program a computer, because it teaches you how to think"</h2>
+                            <hr>
+                            <p>~Steve Jobs</p>
                         </div>
     
                     </div>
@@ -277,7 +283,7 @@
                 <br>
                 <div class="row">
                     <div class="col-md-6">
-                        <img class="animate thumbnail " src="gambar/person.jpg" style="width:250px;">
+                        <img class="thumbnail " src="gambar/person.jpg" style="width:250px;">
                     </div>
                     <div class="col-md-5">
                         <p style="color:black">“Saya lulusan SMK jurusan Akuntansi dan tidak pernah coding sebelumnya. Setelah join bootccamp di Hello-Code, saya yang awalnya tidak bisa, dengan bantuan dari mentor dan materi pembelajaran di Hello-Code, saya mahir dalam 1 bulan, bahkan saya bisa membuat aplikasi hanya dalam waktu 5 hari”</p>
@@ -472,22 +478,89 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <!-- Preloader -->
-        
-
-        
 
         <!-- jQuery -->
         <script src="assets/js/jquery-2.1.3.min.js"></script>
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/materialize/js/materialize.min.js"></script>
         <script src="assets/js/menuzord.js"></script>
+        <script src="assets/js/bootstrap-tabcollapse.min.js"></script>
         <script src="assets/js/jquery.easing.min.js"></script>
         <script src="assets/js/jquery.sticky.min.js"></script>
         <script src="assets/js/smoothscroll.min.js"></script>
-        <script src="assets/js/jquery.stellar.min.js"></script>
         <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/animated-headline.js"></script>
+        <script src="assets/js/jquery.stellar.min.js"></script>
+        <script src="assets/js/jquery.inview.min.js"></script>
+        <script src="assets/js/jquery.shuffle.min.js"></script>
+        <script src="assets/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
+        <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/scripts.js"></script>
+
+        <!-- RS5.0 Core JS Files -->
+        <script src="assets/revolution/js/jquery.themepunch.tools.min.js"></script>
+        <script src="assets/revolution/js/jquery.themepunch.revolution.min.js"></script>
+
+        <!-- RS5.0 Init  -->
+        <script type="text/javascript">
+            jQuery(document).ready(function() {
+               jQuery(".materialize-slider").revolution({
+                    sliderType:"standard",
+                    sliderLayout:"fullscreen",
+                    delay:9000,
+                    navigation: {
+                        keyboardNavigation:"off",
+                        keyboard_direction: "horizontal",
+                        mouseScrollNavigation:"off",
+                        onHoverStop:"off",
+                        arrows: {
+                            style:"erinyen",
+                            enable:true,
+                            hide_onmobile:true,
+                            hide_under:600,
+                            hide_onleave:true,
+                            hide_delay:200,
+                            hide_delay_mobile:1200,
+                            tmp:'<div class="tp-title-wrap">    <div class="tp-arr-imgholder"></div>    <div class="tp-arr-img-over"></div> <span class="tp-arr-titleholder">{{title}}</span> </div>',
+                            left: {
+                                h_align:"left",
+                                v_align:"center",
+                                h_offset:30,
+                                v_offset:0
+                            },
+                            right: {
+                                h_align:"right",
+                                v_align:"center",
+                                h_offset:30,
+                                v_offset:0
+                            }
+                        }
+                    },
+                    responsiveLevels:[1240,1024,778,480],
+                    gridwidth:[1240,1024,778,480],
+                    gridheight:[700,600,500,500],
+                    parallax: {
+                        type:"mouse",
+                        origo:"slidercenter",
+                        speed:2000,
+                        levels:[2,3,4,5,6,7,12,16,10,50],
+                    },
+
+                });
+            });
+        </script>
+
+        <!-- SLIDER REVOLUTION 5.0 EXTENSIONS  (Load Extensions only on Local File Systems! The following part can be removed on Server for On Demand Loading) -->
+         
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.video.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.slideanims.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.actions.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.layeranimation.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.kenburn.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.navigation.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.migration.min.js"></script>
+        <script type="text/javascript" src="assets/revolution/js/extensions/revolution.extension.parallax.min.js"></script>
+        
     </body>
 
 </html>
