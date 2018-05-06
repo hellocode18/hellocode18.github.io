@@ -70,6 +70,17 @@
     height: 550px;
 }
 
+.custab{
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5% 0;
+    box-shadow: 3px 3px 2px #ccc;
+    transition: 0.5s;
+    }
+.custab:hover{
+    box-shadow: 3px 3px 0px transparent;
+    transition: 0.5s;
+    }
 
 
 
@@ -289,37 +300,37 @@ button{
 
 
 /*FOOTER START///////////////////*/
-.footer {
+.footerr {
     padding: 50px 0 20px 0;
     background-color: #090c14;
     color: #878c94;
 }
-.footer .title{
+.footerr .title{
     text-align: left;
     color:#fff;
     font-size:25px;
 }
-.footer .social-icon{
+.footerr .social-icon{
     padding:0px;
     margin:0px;
 }
-.footer .social-icon a{
+.footerr .social-icon a{
     display:inline-block;
     color:#fff;
     font-size:25px;
     padding:5px;
 }
-.footer .acount-icon a{
+.footerr .acount-icon a{
     display:block;
     color:#fff;
     font-size:18px;
     padding:5px;
     text-decoration:none;
 }
-.footer .acount-icon .fa{
+.footerr .acount-icon .fa{
     margin-right:25px;
 }
-.footer .category a {
+.footerr .category a {
     text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -330,15 +341,15 @@ button{
     background-color: black;
     border: solid 1px #fff;
 }
-.footer .payment{
+.footerr .payment{
     margin:0px;
     padding:0px;
     list-style-type:none
 }
-.footer .payment li{
+.footerr .payment li{
     list-style-type:none
 }
-.footer .payment li a {
+.footerr .payment li a {
     text-decoration: none;
     display: inline-block;
     color: #fff;
