@@ -7,19 +7,19 @@ Primary style
 }
 
 .tt-headline {
-  font-size: 3rem;
+  font-size: 10px;
   line-height: 1.2;
   color: #fff;
 }
 @media only screen and (min-width: 768px) {
   .tt-headline {
-    font-size: 4.4rem;
+    font-size: 10px;
     font-weight: 300;
   }
 }
 @media only screen and (min-width: 1170px) {
   .tt-headline {
-    font-size: 7rem;
+    font-size: 50px;
   }
 }
 
