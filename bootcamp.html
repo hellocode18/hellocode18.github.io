@@ -26,6 +26,9 @@
         <!-- Bootstrap -->
         <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <!-- Style CSS -->
+        <!-- flexslider -->
+        <link href="assets/flexSlider/flexslider.css" rel="stylesheet">
+        
         <link href="style.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -39,43 +42,65 @@
     <body>
 
         <header id="header" class="tt-nav">
-
-            <div class="header-sticky dark-header">
-
+            <div class="header-sticky light-header nav-boxed-color">
                 <div class="container">
-
-                    
-
                     <div id="materialize-menu" class="menuzord">
 
                         <!--logo start-->
                         <a href="index.html" class="logo-brand ">
-                            <img class="retina" src="gambar/icon/logo.png" alt=""/>
+                            <img class="retina" src="gambar/icon/logo.png"/>
                         </a>
                         <!--logo end-->
 
                         <!--mega menu start-->
-                        <ul class="menuzord-menu pull-right light">
-                            <li><a href="index.html">Home</a>
+                        <ul class="menuzord-menu pull-left ">
+                            
+                                
 
                             </li>
 
-                            <li><a href="learn.html">Learn-Code</a>
+                            <li><a href="javascript:void(0)" class="active">Produk Kami</a>
+                                <div class="megamenu">
+                                    <div class="megamenu-row text-center">
+                                        <div class="col4">
+                                            <img src="gambar/icon/learn.png" alt="" >
+                                            <ul class="list-unstyled clearfix">
+                                                <li><a href="learn2.html">Learn-Code</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="col4">
+                                            <img src="gambar/icon/bootcamp.png" alt="" class="active">
+                                            <ul class="list-unstyled clearfix">
+                                                <li><a href="bootcamp.html" class="active">Bootcamp-Code</a></li>
+                                                
+                                            </ul>
+                                        </div>
+                                        <div class="col4">
+                                            <img src="gambar/icon/mading.png" alt="">
+                                            <ul class="list-unstyled clearfix">
+                                                 <li><a href="mading.html">Mading-Code</a></li>
+                                                
+                                            </ul>
+                                        </div>
 
+                                    </div>
+                                </div>
                             </li>
 
-                            <li class="active"><a href="bootcamp.html">Bootcamp-Code</a>
-
-                            </li>
-
-                            <li><a href="mading.html">Mading-Code</a>
-
-                            </li>
-
-                            <li><a href="javascript:void(0)">Blog-Code</a>
+                            <li><a href="javascript:void(0)">Blog</a>
 
                             </li>
                             <li><a href="about.html">About Us</a></li>
+
+                            
+                        </ul>
+
+                        <ul class="menuzord-menu pull-right">
+                            <li class="active">
+                                <a href="login.html">Login</a>
+                            </li>
+                            
                         </ul>
                         <!--mega menu end-->
 
@@ -86,55 +111,380 @@
         </header>
         <!--header end-->
 
-        <div class="jumbotron text-center" id="jumboboot">
-            <div class="container">
-                <h1><kbd>Bootcamp-Code</kbd></h1>
-                <p>Terkoneksi dan Bertemu langsung dengan mentor kami yang siap siaga membantu anda dalam syntax error</p>
-            </div>
+       <!--page title start-->
+       <section class="page-title page-title-bg page-title-center ptb-90" style="background-image: url(gambar/bg3.jpg)">
+        <div class="container" style="color: whitesmoke">
+            <h2 class="text-bold white-text font-40">Bootcamp-Code</h2>
+            <p>1 langkah lagi untuk menjadi seorang programmer</p>
+            <ol class="breadcrumb">
+                <li><a href="index.html">Home</a></li>
+                <li class="active">Learn-Code</li>
+            </ol>
         </div>
+    </section>
+    <!--page title end-->
+    <br>
 
 
-        <section class="pejelasan text-center">
+
+        <!--  Plus Box -->
+        <section class="penjelasan">
+                <div class="container">
+                  
+                  <div class="text-center mb-50">
+                      <h2 class="section-title">Kenapa harus <kbd>BootCamp ?</kbd></h2>
+                      <p class="section-sub">Berikut alasan kenapa siswa harus mengikuti program bootcamp.</p>
+                  </div>
+    
+    
+                  <ul class="featured plus-box grid-2">
+                    <li>
+                        <div class="featured-item">
+                            <div class="icon">
+                                <img src="gambar/icon/ico1-group.png">
+                            </div>
+                            <div class="desc">
+                                <h2>Grup Belajar online</h2>
+                                <p>Siswa dapat konsultasi belajar kepada mentor selama waktu pelatihan baik online maupun offline.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </li>
+                    <li>
+                        <div class="featured-item">
+                            <div class="icon">
+                                    <img src="gambar/icon/presentation.png">
+                            </div>
+                            <div class="desc">
+                                <h2>Mentor Berpengalaman</h2>
+                                <p>Siswa akan belajar secara intensif bersama mentor pilihan kami yang berpengalaman dibidangnya.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </li>
+                    <li>
+                        <div class="featured-item">
+                            <div class="icon">
+                                <img src="gambar/icon/ico2-material.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <h2>Materi dan Modul yang lengkap</h2>
+                                <p>Dengan materi dan modul akan membantu peserta untuk memahami bahasa pemrogramman yang dipilih.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </li>
+                    <li>
+                        <div class="featured-item">
+                            <div class="icon">
+                               <img src="gambar/icon/ico3-certificate.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <h2>Sertifikat</h2>
+                                <p>Sertifikat akan menunjang Siswa untuk mempermudah mendapatkan pekerjaan, baik di perusahaan maupun startup.</p>
+                            </div>
+                        </div><!-- /.featured-item -->
+                    </li>
+                  </ul>
+    
+                </div><!-- /.container -->
+            </section>
+            <!--  Plus Box -->
+    
+
+        <section class="section-padding gray-bg">
             <div class="container">
+                <div class="text-center mb-80">
+                    <h2 class="section-title ">Testimoni Bootcamp-Code</h2>
+                </div>
+  
                 <div class="row">
+                  <div class="col-md-10 col-md-offset-1">
+  
+                    <div class="thumb-carousel square-thumb text-center ">
+                      <ul class="slides">
+                        <li data-thumb="gambar/person.jpg" style="width: 50px; ">
+                          <div class="icon">
+                              <img src="gambar/person.jpg" style="width: 150px;" alt="Customer Thumb">
+                          </div>
+                          <div class="content">
+                              <p>Bootcamp-Code dapat membantu saya untuk meyakinkan saya bersaing di dunia digital, terimakasih mentor2 terbarik hellocode !.</p>
+  
+                              <div class="testimonial-meta">
+                                  JackMa
+                                  <span>Pelajar SMAn 4 Bandung</span>
+                              </div>
+                          </div>
+                        </li>
+                        <li data-thumb="gambar/person.jpg"  style="width: 50px; ">
+                            <div class="icon">
+                                <img src="gambar/person.jpg" style="width: 150px;" alt="Customer Thumb">
+                            </div>
+                            <div class="content">
+                                <p>Bootcamp-Code dapat membantu saya untuk meyakinkan saya bersaing di dunia digital, terimakasih mentor2 terbarik hellocode !.</p>
+    
+                                <div class="testimonial-meta">
+                                    JackMa
+                                    <span>Pelajar SMAn 4 Bandung</span>
+                              </div>
+                          </div>
+                        </li>
+                        <li data-thumb="gambar/person.jpg"  style="width: 50px; ">
+                            <div class="icon">
+                                <img src="gambar/person.jpg" style="width: 150px;" alt="Customer Thumb">
+                            </div>
+                            <div class="content">
+                                <p>Bootcamp-Code dapat membantu saya untuk meyakinkan saya bersaing di dunia digital, terimakasih mentor2 terbarik hellocode !.</p>
+    
+                                <div class="testimonial-meta">
+                                    JackMa
+                                    <span>Pelajar SMAn 4 Bandung</span>
+                              </div>
+                          </div>
+                        </li>
+                        <li data-thumb="gambar/person.jpg" style="width: 50px;  ">
+                            <div class="icon">
+                                <img src="gambar/person.jpg" style="width: 150px;" alt="Customer Thumb">
+                            </div>
+                            <div class="content">
+                                <p>Bootcamp-Code dapat membantu saya untuk meyakinkan saya bersaing di dunia digital, terimakasih mentor2 terbarik hellocode !.</p>
+    
+                                <div class="testimonial-meta">
+                                    JackMa
+                                    <span>Pelajar SMAn 4 Bandung</span>
+                              </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </div>
+  
+                  </div>
+                </div><!-- /.row -->
+  
+            </div><!-- /.container -->
+          </section>
+
+ 
+
+          <section class="section-padding">
+                <div class="container">
+                  <div class="text-center mb-80">
+                      <h2>Tunggu apa lagi, ayo daftar Bootcamp</h2>
+                      <p>Berikut panduan daftar di Bootcamp-Code</p>
+                      <hr>
+                  </div>
+                  
+                  <div class="row">
                     <div class="col-md-12">
-                        <h2>Kenapa harus <kbd>Boot-Camp</kbd> ?</h2>
+    
+                        <div class="icon-tab">
+    
+                          <!-- Nav tabs -->
+                          <div class="text-center">
+                            <ul class="nav nav-pills" role="tablist">
+                              <li role="presentation" class="active"><a href="#icontab-1" class="waves-effect waves-light"  role="tab" data-toggle="tab"> 1 </a></li>
+                              <li role="presentation"><a href="#icontab-2" class="waves-effect waves-light" role="tab" data-toggle="tab">  2 </a></li>
+                              <li role="presentation"><a href="#icontab-3" class="waves-effect waves-light" role="tab" data-toggle="tab">  3 </a></li>
+                              <li role="presentation"><a href="#icontab-4" class="waves-effect waves-light" role="tab" data-toggle="tab"> 4 </a></li>
+                            </ul>
+                          </div>
+    
+                          <!-- Tab panes -->
+                          <div class="panel-body mt-40">
+                            <div class="tab-content">
+                              <div role="tabpanel" class="tab-pane fade in active" id="icontab-1">
+    
+                                <div class="row">
+                                  <div class="col-md-6">
+                                      <h1 class="text-bold mb-40">Pilih Paket</h1>
+                                      <p style="font-size: 25px">Pilih paket bootcamp sesuai gradmu, tinggal 3 langkah lagi untuk menjadi seorang progammer muda, ayo, tunggu apa lagi !.</p>
+                                  </div>
+    
+                                  <div class="col-md-6">
+                                      <img src="gambar/step/step1.PNG" alt="" class="img-responsive thumbnail">
+                                  </div>
+                                </div>
+                              </div>
+    
+                              <div role="tabpanel" class="tab-pane fade " id="icontab-2">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                      <h2 class="text-bold mb-40">Isi biodata untuk memenuhi syarat pendaftaran</h2>
+                                      <p>Menunggu data. Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data.</p>
+                                 </div>
+    
+                                  <div class="col-md-6">
+                                      <img src="gambar/icon/log-in.png" alt="" class="img-responsive thumbnail">
+                                  </div>
+                                </div>
+                              </div>
+    
+                              <div role="tabpanel" class="tab-pane fade" id="icontab-3">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                      <h2 class="text-bold mb-40">Lakukan Pembayaran</h2>
+                                      <p>Menunggu data. Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data.</p>
+                                 </div>
+    
+                                  <div class="col-md-6">
+                                      <img src="gambar/icon/transaction.png" alt="" class="img-responsive thumbnail">
+                                  </div>
+                                </div>
+                              </div>
+                              
+                              <div role="tabpanel" class="tab-pane fade" id="icontab-4">
+                                <div class="row">
+                                  <div class="col-md-6">
+                                      <h2 class="text-bold mb-40">Kirim Bukti Pembayaran</h2>
+                                      <p>Menunggu data. Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data Menunggu data.</p>
+                                  </div>
+    
+                                  <div class="col-md-6">
+                                      <img src="gambar/icon/send.png" alt="" class="img-responsive thumbnail">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          
+                        </div><!-- /.icon-tab -->
+    
+                    </div><!-- /.col-md-12 -->
+                  </div><!-- /.row -->
+                </div><!-- /.container -->
+            </section>
+
+        <section class="section-padding gray-bg">
+            <div class="container">
+
+              <div class="text-center mb-80">
+                  <h3 class="section-title ">Harga Paket Bootcamp-Code menjadi <kbd>Web Programmer</kbd> </h3>
+                  <p class="section-sub">Berikut beberapa paket terbaik dan termurah yang kami sediakan untuk kalian para calon programmer muda !, mari mulai ber-investasi untuk dirimu sendiri demi masa depan dan terus berkarya demi 1, indonesia raya.</p>
+              </div>
+
+              <div class="row">
+                <div class="col-md-4">
+                    <div class="pricing-table">
+                        <div class="table-contents text-center">
+                            <div class="table-header brand-hover">
+                                <div class="package-name">
+                                    <span>SMP & SMA</span>
+                                </div> 
+
+                                <div class="package-price">
+                                    <span class="currency-symbol">Rp.</span>
+                                    <span class="price">350.000</span>
+                                    <span class="currency-code">/Batch</span>
+                                </div>
+                            </div> <!-- /.table-header -->
+
+                            <div class="table-info">
+                                <ul>
+                                    <li>Web Templating</li>
+                                    <li>Algoritma dan Pemrograman</li>
+                                    <li>Pemrograman PHP & MySQL</li>
+                                    <li>DOM & JavaScript</li>
+                                    <li>jQuery & jQuery Plugin</li>
+                                </ul>                                
+                            </div><!-- /.table-info -->
+
+                            <div class="table-footer">
+                                <div class="purchase-button">
+                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="sma-bootcamp.html">Info Lengkap</a>
+                                </div>   
+                            </div> <!-- /.table-footer -->
+                        </div> <!-- /.table-contents -->
+                    </div><!-- /.pricing-table -->
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="pricing-table">
+                        <div class="table-contents text-center">
+                            <div class="table-header brand-hover">
+                                <div class="package-name">
+                                    <span>MAHASISWA</span>
+                                </div> 
+
+                                <div class="package-price">
+                                    <span class="currency-symbol">Rp.</span>
+                                    <span class="price">500.000</span>
+                                    <span class="currency-code">/Batch</span>
+                                </div>
+                            </div> <!-- /.table-header -->
+
+                            <div class="table-info">
+                                <ul>
+                                    <li>Web Templating</li>
+                                    <li>Algoritma dan Pemrograman</li>
+                                    <li>Pemrograman PHP & MySQL</li>
+                                    <li>DOM & JavaScript</li>
+                                    <li>jQuery & jQuery Plugin</li>
+                                </ul>                                
+                            </div><!-- /.table-info -->
+
+                            <div class="table-footer">
+                                <div class="purchase-button">
+                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Info Lengkap</a>
+                                </div>   
+                            </div> <!-- /.table-footer -->
+                        </div> <!-- /.table-contents -->
+                    </div><!-- /.pricing-table -->
+                </div><!-- /.col-md-4 -->
+
+                <div class="col-md-4">
+                    <div class="pricing-table">
+                        <div class="table-contents text-center">
+                            <div class="table-header brand-hover">
+                                <div class="package-name">
+                                    <span>KARYAWAN</span>
+                                </div> 
+
+                                <div class="package-price">
+                                    <span class="currency-symbol">Rp.</span>
+                                    <span class="price">700.000</span>
+                                    <span class="currency-code">/Batch</span>
+                                </div>
+                            </div> <!-- /.table-header -->
+
+                            <div class="table-info">
+                                <ul>
+                                    <li>Web Templating</li>
+                                    <li>Algoritma dan Pemrograman</li>
+                                    <li>Pemrograman PHP & MySQL</li>
+                                    <li>DOM & JavaScript</li>
+                                    <li>jQuery & jQuery Plugin</li>
+                                </ul>                                
+                            </div><!-- /.table-info -->
+
+                            <div class="table-footer">
+                                <div class="purchase-button">
+                                    <a class="btn btn-lg text-capitalize waves-effect waves-light" href="">Info Lengkap</a>
+                                </div>   
+                            </div> <!-- /.table-footer -->
+                        </div> <!-- /.table-contents -->
+                    </div><!-- /.pricing-table -->
+                </div><!-- /.col-md-4 -->
+              </div><!-- /.row -->
+            </div><!-- /.container -->
+
+        </section>
+
+        <!--full width promo dark box start-->
+        <div class="full-width promo-box dark-bg mb-50">
+                <div class="container">
+                    <div class="col-md-12">
+                        <div class="promo-info">
+                            <span class="white-text text-uppercase">Masih bingung dan ada pertayaan ? </span>
+                            <h2 class="white-text text-bold text-uppercase no-margin"><span class="brand-color">Jangan Khawatir ! </span> Klik untuk info lebih lanjut</h2>
+                        </div>
+                        <div class="promo-btn">
+                            <a href="#" class="btn white waves-effect waves-grey"><span style="color: black">Selengkapnya</span></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
+            <!--full width promo dark box end-->
 
-        <section class="isi">
-            <div class="container text-center">
-                <br>
-                <br>
-                <br>
-                <div class="row">
-                    <div class="col-md-6">
-                        <img src="gambar/icon/ico1-group.png" class="img-thumbnail">
-                        <h4><strong>Grup Belajar online</strong></h4>
-                        <p>kalian akan join kedalam grup yang sudah di sediakan lalu akan di pandu dengan mentor yang sudah siap memandu kalian hingga mahir.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <img src="gambar/icon/ico2-material.png" class="img-thumbnail">
-                        <h4><strong>Materi dan Modul yang lengkap</strong></h4>
-                        <p>Dengan materi dan modul akan membantu kalian untuk memahami bahasa pemrogramman yang dipilih</p>
-                    </div>
-                </div>
-                <br>
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3">
-                        <img src="gambar/icon/ico3-video.png" class="img-thumbnail">
-                        <h4><strong>Video yang berkualitas dan bermanfaat</strong></h4>
-                        <p>Video pembelajaran akan membantu kalian untuk meningkatkan kemampuan, dan juga menghilangkan jenuh dari materi dan modul.</p>
-                        <br>
-                        <button type="button" class="btn btn-primary btn-lg btn3d"><span class="glyphicon glyphicon-send"></span> Mulai !</button>
-                    </div>
-                </div>
 
-            </div>
-        </section>
-        <hr>
+        <br>
+
         <div class="oaerror warning">
             <strong>Informasi</strong> - Website ini sedang dalam tahap pengembangan lebih lanjut. . .
         </div>
@@ -145,61 +495,62 @@
 
 
         <section class="footerbawah">
-            <footer class="footer">
-                <div class="container">
-                    <hr>
-                    <div class="row">
-                        <div class="col-sm-3">
-                            <h4 class="title ">About us</h4>
-                            <p><kbd>Hello-Code</kbd> adalah sebuah media edukasi online yang menyediakan fasilitas belajar online seputar pemrogramman dan teknologi.</p>
-                            <ul class="social-icon">
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                                <a href="#" class="social"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a>
-                            </ul>
-                        </div>
-                        <div class="col-sm-3">
-                            <h4 class="title">My Account</h4>
-                            <span class="acount-icon">          
-                                <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> List</a>
-                                <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i>Group</a>
-                                <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> Profile</a>
-                                <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> Language</a>           
-                            </span>
-                        </div>
-                        <div class="col-sm-3">
-                            <h4 class="title">Category</h4>
-                            <div class="category">
-                                <a href="#">HTML 5</a>
-                                <a href="#">CSS 3</a>
-                                <a href="#">JAVASCRIPT</a>
-                                <a href="#">JQUERY</a>
-                                <a href="#">BOOTSTRAP 3/4</a>
-                                <a href="#">RUBY</a>
-                                <a href="#">PYTHON</a>
-                                <a href="#">LARAVEL</a>
-                                <a href="#">ANDROID</a>
+                <footer class="footerr">
+                    <div class="container">
+                       
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <h4 class="title ">About us</h4>
+                                <p><kbd>Hello-Code</kbd> Hellocode adalah sebuah media edukasi pemrogramman dan tempat pelatihan intensif untuk para calon-calon programmer yang ingin memulai dunianya bersama kami,
+                                     untuk membentuk siswa/i SMP dan SMA menjadi seorang programmer yang siap untuk bersaing di dunia digital.</p>
+                                
+                            </div>
+                            <div class="col-sm-3">
+                                <h4 class="title">My Account</h4>
+                                <span class="acount-icon">          
+                                    <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> List</a>
+                                    <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i>Group</a>
+                                    <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> Profile</a>
+                                    <a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i> Language</a>           
+                                </span>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4 class="title">Category</h4>
+                                <div class="category">
+                                    <a href="#">Learn-Code</a>
+                                    <a href="#">Bootcamp-Code</a>
+                                    <a href="#">Mading-Code</a>
+                                    <a href="#">Blog-Code</a>
+                                    <a href="#">Forum-Code</a>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <h4 class="title">Payment</h4>
+                                <p>Transfer uang ke rekening yang sudah di sediakan di halaman page transakti.</pr>
+                                <ul class="payment">
+                                    <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="col-sm-3">
-                            <h4 class="title">Payment</h4>
-                            <p>Transfer uang ke rekening yang sudah di sediakan di halaman page transakti.</p>
-                            <ul class="payment">
-                                <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="glyphicon glyphicon-headphones" aria-hidden="true"></i></a></li>
-                            </ul>
-                        </div>
+                       
+                        
                     </div>
-                    <hr>
-                    <div class="row text-center"><a href="#" style="color: #fff;">Copyright © Wikal Pratama</a></div>
+                </footer>
+            </section>
+
+            <!-- Preloader -->
+        <div id="preloader">
+                <div class="preloader-position"> 
+                  <img src="gambar/icon/logo.png" style="width: 500px;" alt="logo" >
+                  <div class="progress">
+                    <div class="indeterminate"></div>
+                  </div>
                 </div>
-            </footer>
-        </section>
+              </div>
+              <!-- End Preloader -->
 
 
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -210,12 +561,22 @@
         <script src="assets/bootstrap/js/bootstrap.min.js"></script>
         <script src="assets/materialize/js/materialize.min.js"></script>
         <script src="assets/js/menuzord.js"></script>
+        <script src="assets/js/bootstrap-tabcollapse.min.js"></script>
         <script src="assets/js/jquery.easing.min.js"></script>
         <script src="assets/js/jquery.sticky.min.js"></script>
         <script src="assets/js/smoothscroll.min.js"></script>
-        <script src="assets/js/jquery.stellar.min.js"></script>
         <script src="assets/js/imagesloaded.js"></script>
-        <script src="assets/js/animated-headline.js"></script>
+        <script src="assets/js/twitterFetcher.min.js"></script>
+        <script src="assets/js/jquery.stellar.min.js"></script>
+        <script src="assets/js/jquery.inview.min.js"></script>
+        <script src="assets/js/wow.min.js"></script>
+        <script src="assets/js/jquery.countTo.min.js"></script>
+        <script src="assets/js/jquery.shuffle.min.js"></script>
+        <script src="assets/js/masonry.pkgd.min.js"></script>
+        <script src="assets/owl.carousel/owl.carousel.min.js"></script>
+        <script src="assets/flexSlider/jquery.flexslider-min.js"></script>
+        <script src="assets/magnific-popup/jquery.magnific-popup.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
         <script src="assets/js/scripts.js"></script>
     </body>
 
