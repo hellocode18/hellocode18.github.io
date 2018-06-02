@@ -169,7 +169,7 @@ Border Tabs
 /*Border Background Tab*/
 .border-tab.primary-nav .nav-tabs>li>a, 
 .border-tab.primary-nav .nav-tabs.nav-justified>li>a {
-    border: 1px solid transparent;
+    
     background: #03a9f4;
     color: #fff;
 }
